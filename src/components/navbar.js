@@ -1,20 +1,17 @@
 import React from 'react';
-import { Link} from 'react-router-dom';
-
-
+import './navbar.css';
 
 export default function NavigationBar(props) {
     return (
-        <div className="">
+      	<div className="nav-container">
             <nav className="navbar">
-                <a className="nav-header">PetLovers</a>
+                <img src="https://pngimage.net/wp-content/uploads/2018/06/javascript-png-5.png" alt="" class="nav-logo"></img>
                 <ul className="main-nav">
                     <li>
-                        <a href="/" className="nav-links">Home</a>
-                        
+                        <a href="/" className="nav-links">ProjectEulerJS</a>
                     </li>
                     <li>
-                         <a href="/event-finder" className="nav-links">Problems</a>
+                         <a href="/event-finder" className="nav-links">Resources</a>
                     </li>     
                 </ul>
             </nav>
